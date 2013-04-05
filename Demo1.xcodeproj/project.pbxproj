@@ -11,6 +11,7 @@
 		F7063E84170ECB9B00CDEACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7063E83170ECB9B00CDEACB /* main.m */; };
 		F7063E88170ECB9B00CDEACB /* Demo1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7063E87170ECB9B00CDEACB /* Demo1.1 */; };
 		F7063E90170ECBBA00CDEACB /* DemoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F7063E8F170ECBBA00CDEACB /* DemoFile.m */; };
+		F7063E93170ECE0C00CDEACB /* DemoFileX.m in Sources */ = {isa = PBXBuildFile; fileRef = F7063E92170ECE0C00CDEACB /* DemoFileX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		F7063E87170ECB9B00CDEACB /* Demo1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Demo1.1; sourceTree = "<group>"; };
 		F7063E8E170ECBBA00CDEACB /* DemoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFile.h; sourceTree = "<group>"; };
 		F7063E8F170ECBBA00CDEACB /* DemoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFile.m; sourceTree = "<group>"; };
+		F7063E91170ECE0C00CDEACB /* DemoFileX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFileX.h; sourceTree = "<group>"; };
+		F7063E92170ECE0C00CDEACB /* DemoFileX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFileX.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				F7063E83170ECB9B00CDEACB /* main.m */,
+				F7063E91170ECE0C00CDEACB /* DemoFileX.h */,
+				F7063E92170ECE0C00CDEACB /* DemoFileX.m */,
 				F7063E8E170ECBBA00CDEACB /* DemoFile.h */,
 				F7063E8F170ECBBA00CDEACB /* DemoFile.m */,
 			);
@@ -147,6 +152,7 @@
 			files = (
 				F7063E84170ECB9B00CDEACB /* main.m in Sources */,
 				F7063E90170ECBBA00CDEACB /* DemoFile.m in Sources */,
+				F7063E93170ECE0C00CDEACB /* DemoFileX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
