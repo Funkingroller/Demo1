@@ -10,6 +10,7 @@
 		F7063E81170ECB9B00CDEACB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7063E80170ECB9B00CDEACB /* Foundation.framework */; };
 		F7063E84170ECB9B00CDEACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7063E83170ECB9B00CDEACB /* main.m */; };
 		F7063E88170ECB9B00CDEACB /* Demo1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7063E87170ECB9B00CDEACB /* Demo1.1 */; };
+		F7063E90170ECBBA00CDEACB /* DemoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F7063E8F170ECBBA00CDEACB /* DemoFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		F7063E83170ECB9B00CDEACB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7063E86170ECB9B00CDEACB /* Demo1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo1-Prefix.pch"; sourceTree = "<group>"; };
 		F7063E87170ECB9B00CDEACB /* Demo1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Demo1.1; sourceTree = "<group>"; };
+		F7063E8E170ECBBA00CDEACB /* DemoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFile.h; sourceTree = "<group>"; };
+		F7063E8F170ECBBA00CDEACB /* DemoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 				F7063E82170ECB9B00CDEACB /* Demo1 */,
 				F7063E7F170ECB9B00CDEACB /* Frameworks */,
 				F7063E7E170ECB9B00CDEACB /* Products */,
+				F7063E85170ECB9B00CDEACB /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				F7063E83170ECB9B00CDEACB /* main.m */,
-				F7063E87170ECB9B00CDEACB /* Demo1.1 */,
-				F7063E85170ECB9B00CDEACB /* Supporting Files */,
+				F7063E8E170ECBBA00CDEACB /* DemoFile.h */,
+				F7063E8F170ECBBA00CDEACB /* DemoFile.m */,
 			);
 			path = Demo1;
 			sourceTree = "<group>";
@@ -83,9 +87,11 @@
 		F7063E85170ECB9B00CDEACB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F7063E87170ECB9B00CDEACB /* Demo1.1 */,
 				F7063E86170ECB9B00CDEACB /* Demo1-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = Demo1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7063E84170ECB9B00CDEACB /* main.m in Sources */,
+				F7063E90170ECBBA00CDEACB /* DemoFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
